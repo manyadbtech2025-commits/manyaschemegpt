@@ -195,6 +195,11 @@ export interface Database {
           farmer: boolean;
           student: boolean;
           startup_founder: boolean;
+          msme: boolean;
+          senior_citizen: boolean;
+          women: boolean;
+          widow: boolean;
+          minority: boolean;
           ai_match_score: number;
           total_benefits: number;
           eligible_schemes: number;
@@ -221,6 +226,11 @@ export interface Database {
           farmer?: boolean;
           student?: boolean;
           startup_founder?: boolean;
+          msme?: boolean;
+          senior_citizen?: boolean;
+          women?: boolean;
+          widow?: boolean;
+          minority?: boolean;
           ai_match_score?: number;
           total_benefits?: number;
           eligible_schemes?: number;
@@ -245,6 +255,11 @@ export interface Database {
           farmer?: boolean;
           student?: boolean;
           startup_founder?: boolean;
+          msme?: boolean;
+          senior_citizen?: boolean;
+          women?: boolean;
+          widow?: boolean;
+          minority?: boolean;
           ai_match_score?: number;
           total_benefits?: number;
           eligible_schemes?: number;
