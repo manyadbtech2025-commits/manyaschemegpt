@@ -26,14 +26,10 @@ function LoadingFallback() {
 }
 
 function ProtectedRoute({ children }: { children: React.ReactNode }) {
-  const { user, loading } = useAuthStore();
+  const { loading } = useAuthStore();
 
   if (loading) {
     return <LoadingFallback />;
-  }
-
-  if (!user) {
-    return <Navigate to="/" replace />;
   }
 
   return <>{children}</>;
